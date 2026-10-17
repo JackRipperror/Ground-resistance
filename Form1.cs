@@ -290,7 +290,7 @@ namespace Ground_resistance
             
 
             // Проверка на нулевые значения
-            if (SC == 0 || yn == 0 || yv == 0 || h == 0 || a == 0 || b == 0 || c == 0)
+            if (yn == 0 || yv == 0 || h == 0 || a == 0 || b == 0 || c == 0)
             {
                 MessageBox.Show("Значения не могут быть нулевыми!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
